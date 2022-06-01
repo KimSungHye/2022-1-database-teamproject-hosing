@@ -1,0 +1,31 @@
+<HTML> 
+ <HEAD> 
+     <link href="..\images\logo\small_logo.ico" rel="shortcut icon" type="image/x-icon">
+     <title>ADMIN PAGE</title>
+     <META http-equiv="content-type" content="text/html; charset=utf-8"> 
+     <link href="/termproject/css/styles.css" rel="stylesheet" />
+     <style type="text/css"> 
+      a { text-decoration:none } 
+      /* link - 아직 클릭하지 않은 경우  */
+      a:link { color: black;} 
+      /* visited - 한번 클릭하거나 전에 클릭한적 있을 경우  */
+      a:visited { color: black;}  
+      /* hover - 마우스를 해당 링크에 위치했을 경우  */
+      a:hover { color: green;}
+     </style>
+ </HEAD> 
+ <BODY> 
+
+     <H1>CELIN 회원 관리 시스템</H1> 
+     <div style="text-align: center;"> 
+     <A HREF='select.php'> 회원 검색(검색 후 삭제 가능) </A> <BR><BR> 
+    <FORM METHOD="get" ACTION="delete.php"> 
+         회원 삭제 - 회원 아이디 : <INPUT TYPE ="text" NAME="costomer_id"> 
+        <INPUT TYPE="submit" VALUE="삭제"> 
+    </FORM> 
+    </div>
+    <BR> <A HREF='admin2.html'> 이전 화면</A>
+
+ </BODY> 
+ </HTML>
+
